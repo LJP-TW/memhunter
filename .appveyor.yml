@@ -19,3 +19,8 @@ build:
   project: memhunter.sln 
   verbosity: minimal
   parallel: true
+
+artifacts:
+  - path: 'C:\projects\memhunter\build\**\*.dll'
+  - path: 'C:\projects\memhunter\build\**\*.exe'
+  - path: 'C:\projects\memhunter\build\**\*.lib'
