@@ -21,6 +21,6 @@ build:
   parallel: true
 
 artifacts:
-  - path: 'C:\projects\memhunter\build\**\*.dll'
-  - path: 'C:\projects\memhunter\build\**\*.exe'
-  - path: 'C:\projects\memhunter\build\**\*.lib'
+  - path: '.\build\**\*.dll'
+  - path: '.\build\**\*.exe'
+  - path: '.\build\**\*.lib'
